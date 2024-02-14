@@ -1332,6 +1332,144 @@ a {
     border-radius: 20px;
   }
 }
+.rasm {
+  padding-top: 180px;
+}
+
+.orta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.figmatext {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px;
+}
+
+.bola {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.figmatext h1 {
+  color: rgb(29, 52, 68);
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+
+.figmatext h2 {
+  color: rgb(13, 19, 23);
+  font-family: Poppins;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -3%;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 900px;
+    height: 650px;
+  }
+}
+@media (max-width: 1000px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 900px;
+    height: 650px;
+  }
+}
+@media (max-width: 800px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 650px;
+    height: 550px;
+  }
+  .figmatext h1 {
+    font-size: 34px;
+  }
+  .figmatext h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 450px;
+    height: 350px;
+  }
+  .figmatext h1 {
+    font-size: 36px;
+  }
+  .figmatext h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 500px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 400px;
+    height: 300px;
+  }
+  .figmatext h1 {
+    font-size: 35px;
+  }
+  .figmatext h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 750px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 500px;
+    height: 400px;
+  }
+  .figmatext h1 {
+    font-size: 40px;
+  }
+  .figmatext h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 451px) {
+  .rasm {
+    text-align: center;
+  }
+  .rasm img {
+    width: 320px;
+    height: 270px;
+  }
+  .figmatext h1 {
+    font-size: 25px;
+  }
+  .figmatext h2 {
+    font-size: 20px;
+  }
+}
 .header_section_wraper h1 {
   max-width: 618px;
   color: rgb(29, 52, 68);
