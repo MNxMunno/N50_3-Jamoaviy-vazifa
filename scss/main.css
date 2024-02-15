@@ -2024,6 +2024,7 @@ html {
 
 body {
   padding-top: 85px;
+  position: relative;
 }
 
 .dark {
@@ -2058,4 +2059,23 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.backtop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: #000;
+  color: #fff;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 6px 5px 6px 3px;
+  font-size: 18px;
+  font-family: Poppins;
+}
+
+.dark .backtop {
+  background: #e6a1a1;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
