@@ -965,7 +965,7 @@ a {
     flex-direction: column;
   }
   .Home----home .start-up .start-right {
-    padding: 120px 5px;
+    padding: 120px 0 120px 10px;
   }
   .Home----home .start-up .start-right h6 {
     font-size: 28px;
