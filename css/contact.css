@@ -10,6 +10,9 @@
   .main__div {
     display: block;
   }
+  .main__div .map {
+    margin-bottom: 100px;
+  }
 }
 
 .contact__desc h2 {
