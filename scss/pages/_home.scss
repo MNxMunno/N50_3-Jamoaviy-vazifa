@@ -538,6 +538,82 @@ a {
       }
     }
   }
+  .dream {
+    background: #fff;
+    .cards {
+      padding: 128px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      .card {
+        position: relative;
+        h1 {
+          max-width: 550px;
+          margin: auto;
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 56px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          color: #0d1317;
+        }
+        p {
+          max-width: 550px;
+          margin: auto;
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #5b5b5b;
+          padding: 24px 0 40px;
+        }
+        .gril {
+          max-width: 250px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          b {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 41px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #063255;
+          }
+          p {
+            padding: 0;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: #f58a07;
+          }
+          img {
+            width: 80px;
+          }
+        }
+        .imgg {
+          width: 100%;
+        }
+        .play {
+          position: absolute;
+          bottom: 40px;
+          left: 40px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 
   .latest {
     // background: #dceaf5;
@@ -737,6 +813,130 @@ a {
       .latest-content {
         h6 {
           font-size: 32px;
+        }
+      }
+    }
+  }
+}
+
+.dark .Home----home {
+  .home___hero {
+    background: #6092b6;
+    .cards {
+      h1 {
+        color: #fff;
+      }
+      p {
+        color: #fff !important;
+      }
+      a {
+        color: #f8bbbb !important;
+      }
+    }
+  }
+
+  .sector {
+    background: #5b5b5b;
+    .sector-content {
+      h2 {
+        color: #fff;
+      }
+      p {
+        color: #fff !important;
+      }
+      .cards {
+        .card {
+          background: #7d7d7d;
+          h4 {
+            color: #fff;
+          }
+          a {
+            color: #fff;
+          }
+          transition: 0.4s;
+          &:hover {
+            box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.9);
+          }
+        }
+      }
+    }
+  }
+  .building {
+    background: #7d7d7d;
+    .cards1 {
+      h3 {
+        color: #fff;
+      }
+      p {
+        color: #fff;
+      }
+    }
+    .cards2 {
+      .card {
+        background: #babbbc;
+        transition: 0.4s;
+        &:hover {
+          box-shadow: 3px 3px 8px 0px rgba(255, 255, 255, 0.9);
+        }
+        &:hover h4 {
+          color: #4a5d69;
+        }
+        &:hover p {
+          color: #6a9ab8;
+        }
+        &:hover svg {
+          fill: #ffd343;
+        }
+        h4 {
+          color: #fff;
+          transition: 0.4s;
+        }
+        p {
+          color: #fff;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+  .dream {
+    background: #a8bccc;
+    .cards {
+      h1 {
+        color: #fff;
+      }
+      b {
+        color: #fff !important;
+      }
+      p {
+        color: #fff;
+      }
+    }
+  }
+  .latest {
+    background: #5b5b5b;
+    .latest-content {
+      h6 {
+        color: #fff;
+      }
+      h2 {
+        color: #fff;
+      }
+      p {
+        color: #fff !important;
+      }
+      .cards {
+        .card {
+          background: #7d7d7d;
+          h4 {
+            color: #fff;
+          }
+          a {
+            color: #fff;
+          }
+          transition: 0.4s;
+          &:hover {
+            box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.9);
+          }
         }
       }
     }

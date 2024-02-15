@@ -815,6 +815,81 @@ a {
   background: #feb863;
   color: #fff;
 }
+.Home----home .dream {
+  background: #fff;
+}
+.Home----home .dream .cards {
+  padding: 128px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.Home----home .dream .cards .card {
+  position: relative;
+}
+.Home----home .dream .cards .card h1 {
+  max-width: 550px;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #0d1317;
+}
+.Home----home .dream .cards .card p {
+  max-width: 550px;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+  padding: 24px 0 40px;
+}
+.Home----home .dream .cards .card .gril {
+  max-width: 250px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home----home .dream .cards .card .gril b {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #063255;
+}
+.Home----home .dream .cards .card .gril p {
+  padding: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f58a07;
+}
+.Home----home .dream .cards .card .gril img {
+  width: 80px;
+}
+.Home----home .dream .cards .card .imgg {
+  width: 100%;
+}
+.Home----home .dream .cards .card .play {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  cursor: pointer;
+}
 .Home----home .latest .latest-content {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -978,6 +1053,111 @@ a {
   .Home----home .latest .latest-content h6 {
     font-size: 32px;
   }
+}
+
+.dark .Home----home .home___hero {
+  background: #6092b6;
+}
+.dark .Home----home .home___hero .cards h1 {
+  color: #fff;
+}
+.dark .Home----home .home___hero .cards p {
+  color: #fff !important;
+}
+.dark .Home----home .home___hero .cards a {
+  color: #f8bbbb !important;
+}
+.dark .Home----home .sector {
+  background: #5b5b5b;
+}
+.dark .Home----home .sector .sector-content h2 {
+  color: #fff;
+}
+.dark .Home----home .sector .sector-content p {
+  color: #fff !important;
+}
+.dark .Home----home .sector .sector-content .cards .card {
+  background: #7d7d7d;
+  transition: 0.4s;
+}
+.dark .Home----home .sector .sector-content .cards .card h4 {
+  color: #fff;
+}
+.dark .Home----home .sector .sector-content .cards .card a {
+  color: #fff;
+}
+.dark .Home----home .sector .sector-content .cards .card:hover {
+  box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.9);
+}
+.dark .Home----home .building {
+  background: #7d7d7d;
+}
+.dark .Home----home .building .cards1 h3 {
+  color: #fff;
+}
+.dark .Home----home .building .cards1 p {
+  color: #fff;
+}
+.dark .Home----home .building .cards2 .card {
+  background: #babbbc;
+  transition: 0.4s;
+}
+.dark .Home----home .building .cards2 .card:hover {
+  box-shadow: 3px 3px 8px 0px rgba(255, 255, 255, 0.9);
+}
+.dark .Home----home .building .cards2 .card:hover h4 {
+  color: #4a5d69;
+}
+.dark .Home----home .building .cards2 .card:hover p {
+  color: #6a9ab8;
+}
+.dark .Home----home .building .cards2 .card:hover svg {
+  fill: #ffd343;
+}
+.dark .Home----home .building .cards2 .card h4 {
+  color: #fff;
+  transition: 0.4s;
+}
+.dark .Home----home .building .cards2 .card p {
+  color: #fff;
+  transition: 0.4s;
+}
+.dark .Home----home .dream {
+  background: #a8bccc;
+}
+.dark .Home----home .dream .cards h1 {
+  color: #fff;
+}
+.dark .Home----home .dream .cards b {
+  color: #fff !important;
+}
+.dark .Home----home .dream .cards p {
+  color: #fff;
+}
+.dark .Home----home .latest {
+  background: #5b5b5b;
+}
+.dark .Home----home .latest .latest-content h6 {
+  color: #fff;
+}
+.dark .Home----home .latest .latest-content h2 {
+  color: #fff;
+}
+.dark .Home----home .latest .latest-content p {
+  color: #fff !important;
+}
+.dark .Home----home .latest .latest-content .cards .card {
+  background: #7d7d7d;
+  transition: 0.4s;
+}
+.dark .Home----home .latest .latest-content .cards .card h4 {
+  color: #fff;
+}
+.dark .Home----home .latest .latest-content .cards .card a {
+  color: #fff;
+}
+.dark .Home----home .latest .latest-content .cards .card:hover {
+  box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.9);
 }
 
 .AllList .all .all-list {
